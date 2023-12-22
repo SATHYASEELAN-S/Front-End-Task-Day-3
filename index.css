@@ -1,0 +1,84 @@
+
+body{
+    font-size: 15px;
+}
+.content{
+    height:55%;
+    width: 55%;
+    
+}
+
+.col1{
+    background-color:  hsl(31, 77%, 52%);
+    border-radius: 8px 0 0 8px;
+}
+.col2{
+    background-color:  hsl(184, 100%, 22%);
+}
+.col3{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 8px 8px 0;
+}
+
+h1{
+    
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+}
+button{
+    padding: 7px 20px;
+    border-radius: 35px;
+    border: 3px;
+    background-color:  hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.x1{
+  color:  hsl(31, 77%, 52%);
+}
+.x2{
+    color: hsl(184, 100%, 22%);
+  }
+  .x3{
+    color:  hsl(179, 100%, 13%);
+  }
+ .col1 button:hover {
+    background-color: hsl(31, 77%, 52%);  
+    color: white; 
+    border: 2px solid white; 
+  }
+  
+  
+.col2 button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: white; 
+    border: 2px solid white; 
+}
+
+.col3 button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: white; 
+    border: 2px solid white; 
+}
+
+
+@media (max-width:992px){
+    
+.col1{
+
+    border-radius: 8px 8px 0 0;
+    
+}
+
+.col3{
+    border-radius: 0 0 8px 8px;
+}
+
+}
